@@ -1,0 +1,17 @@
+BasedOnStyle: LLVM
+BreakConstructorInitializers: BeforeComma
+BreakBeforeBraces: Custom
+BraceWrapping: {
+    AfterClass: 'false'
+    AfterControlStatement: 'false'
+    AfterEnum : 'false'
+    AfterFunction : 'true'
+    AfterNamespace : 'true'
+    AfterStruct : 'false'
+    AfterUnion : 'false'
+    BeforeCatch : 'false'
+    BeforeElse : 'false'
+    IndentBraces : 'false'
+}
+AlignAfterOpenBracket: Align
+AlwaysBreakTemplateDeclarations: true
