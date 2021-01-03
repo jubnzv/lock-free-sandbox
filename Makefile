@@ -18,10 +18,8 @@ clean:
 
 bench: driver
 	sudo bin/driver-refcount-pri > refcount-pri.dat
-	sudo bin/driver-hp-pri > hp-pri.dat
-	sudo bin/driver-lock-pri > lock-pri.dat
 	sudo bin/driver-mpmc-pri > mpmc-pri.dat
-	gnuplot -e "filenames='refcount-pri.dat hp-pri.dat lock-pri.dat mpmc-pri.dat'" gnuplot.script
+	gnuplot -e "filenames='refcount-pri.dat mpmc-pri.dat'" gnuplot.script
 
 bench-pri: driver
 	sudo bin/driver-lock-pri > lock-pri.dat
