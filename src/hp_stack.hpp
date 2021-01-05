@@ -1,7 +1,5 @@
-// Naive implementation of lock-free queue based on hazard pointers.
-//
-// References:
-// C++ Concurrency in Action ch. 7.2
+// Naive implementation of lock-free stack based on hazard pointers.
+// References: C++ Concurrency in Action ch. 7.2.
 #ifndef HP_STACK_HPP
 #define HP_STACK_HPP
 

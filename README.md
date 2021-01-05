@@ -1,18 +1,6 @@
 # lock-free-sandbox
 
-Benchmarks for some lock-free data structures based on [C++ lectures in Russian](https://sourceforge.net/projects/cpp-lects-rus/) and [C++ Concurrency in Action](https://www.amazon.com/C-Concurrency-Action-Practical-Multithreading/dp/1933988770) book.
-
-## Results
-
-CPU: Intel i5-3230M (4) @ 3.200GHz
-
-### Set priority and nice parameters
-
-![](./assets/result-priority.png)
-
-### Comparison between lock-free stack and queue
-
-![](./assets/result-stack-vs-queue.png)
+Experiments with some lock-free data structures based on [C++ lectures in Russian](https://sourceforge.net/projects/cpp-lects-rus/) and [C++ Concurrency in Action](https://www.amazon.com/C-Concurrency-Action-Practical-Multithreading/dp/1933988770) book.
 
 ## References
 
